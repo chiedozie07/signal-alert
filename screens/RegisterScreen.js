@@ -25,7 +25,7 @@ const RegisterScreen = ({ navigation }) => {
                 authUser.user.updateProfile({
                     userName: 'name',
                     imageURL: 'imageUrl' ||
-                        'https://scontent.flos1-1.fna.fbcdn.net/v/t1.0-9/79703470_3123267921022899_1991593102707523584_n.jpg?_nc_cat=104&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeFy26hJ231_LERkodOF_u6SGKdGCJrrg6IYp0YImuuDoqz1OhSX97LQdQCAvci1i8QABs5Lz-k1pQFdxE6R4YI3&_nc_ohc=zxohbYWBlkMAX8raPGG&_nc_ht=scontent.flos1-1.fna&oh=4548986ee8d5cca682a29d5c55696977&oe=60439636',
+                        'https://avatars.githubusercontent.com/u/60542625?s=400&u=ccc76fd293d6dcda6a78cf81e1e94d28c3c7eb24&v=4',
                 });
             })
         .catch ((error) => alert(error.message));
